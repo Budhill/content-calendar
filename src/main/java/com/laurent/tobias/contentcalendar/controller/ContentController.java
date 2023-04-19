@@ -20,7 +20,7 @@ import com.laurent.tobias.contentcalendar.repository.ContentCollectionRepository
 public class ContentController {
     
     private final ContentCollectionRepository contentCollectionRepository;
-
+ 
     public ContentController(ContentCollectionRepository contentCollectionRepository) {
         this.contentCollectionRepository = contentCollectionRepository;
     }
